@@ -1,0 +1,9 @@
+{
+  "name": "spendwise",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install-client": "npm install --prefix client",
+    "build": "npm run install-client && npm run build --prefix client"
+  }
+}
